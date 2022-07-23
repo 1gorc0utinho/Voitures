@@ -1,0 +1,168 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.titulo-principal{
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-family: serif;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 18px;
+}
+.nav-bar button{
+  background-color: white;
+  padding: 6px 6px;
+  border: 0;
+}
+.nav-bar a:hover{
+  text-decoration: double underline;
+}
+.showcase{
+  position: relative;
+}
+.stimg{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+h2, h3{
+  font-style: italic;
+  font-family: serif;
+}
+.caixa{
+  background-color: #f4f4f4;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+ol{
+  list-style-type: upper-roman;
+  color: #BF9D8A;
+}
+.link-carros{
+  text-decoration: none;
+  color: #BF9D8A;
+  font-size: 21px;
+}
+.imagem-pequena{
+  width: 100px;
+}
+.fundo-azul-transparencia{
+  background-color: blue;
+  opacity: 0.3;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 15px;
+  width: 70%;
+}
+.link{
+  text-decoration: none;
+  color: #BF9D8A;
+}
+.footer{
+  background-color: white;
+}
+.navaside{
+  float: left;
+  background-color: #0D2840;
+  padding: 5px;
+  border-radius: 15px;
+  width: 25%;
+}
+aside img{
+  width: 100%;
+}
+article img{
+  width: 50%;
+}
+.box{
+  background-color: #0D2840;
+}
+#cores{
+  display: flex;
+  justify-content: space-around;
+}
+#cores button{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+#colorblack{
+  background-color: black;
+}
+#coloryellow{
+  background-color: #8C5600;
+}
+#colorred{
+  background-color: #8C0303;
+}
+#colorblue{
+  background-color: #1C588C;
+}
+#colorwhite{
+  background-color: white;
+}
+table{
+  color: black;
+}
+tr:hover{
+  background-color: #730202;
+}
+.sbutton{
+  background-color: #404040;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.sbutton:hover{
+  background-color: white;
+  color: black;
+}
+.sugest{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sugest input{
+  padding: 5px;
+  border: 2px solid;
+  border-color: #404040;
+}
+.sugest input:focus{
+  background-color: #505050;
+  color: white;
+}
+.afooter{
+  font-family: Arial Black;
+  background-color: white;
+  font-size: 30px;
+  padding: 5px;
+  border-right: 2px;
+  border-right-color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+.divfooter{
+  float: right;
+}
